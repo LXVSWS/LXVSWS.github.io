@@ -19,7 +19,7 @@ canvas {
 }
 
 #bg {
-    background: url('https://lxvsws.com/static/img/bg.jpg') no-repeat fixed;
+    background: url("img/bg.jpg") no-repeat fixed;
     background-position: 50% 35%;
     background-size: cover;
     z-index: -1;
