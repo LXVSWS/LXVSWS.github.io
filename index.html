@@ -58,17 +58,17 @@
             <div class="columns is-centered">
                 <div class="column box is-5 has-background-grey-lighter has-text-centered has-text-black">
                     <h1 class="title is-1 has-text-weight-light">Prestations de services</h1>
-                    <h2 class="subtitle is-2 has-text-weight-bold has-text-secondary">Développement</h2>
+                    <h2 class="subtitle is-2 has-text-weight-bold has-text-secondary">Développeur Fullstack</h2>
                     <div class="content is-medium">
                         <ul>
-                            <li>Conception de logiciels <span class="souligne">sur-mesure</span><span class="icon is-medium has-text-dark"><i class="fas fa-pencil-ruler"></i></span></li>
+                            <li><span class="souligne">Conception de logiciels</span><span class="icon is-medium has-text-dark"><i class="fas fa-pencil-ruler"></i></span></li>
                             <li class="is-family-code">Web & Desktop<span class="icon is-medium has-text-danger"><i class="fas fa-cogs"></i></li>
-                            <li class="is-italic">C / Python / JS<span class="icon is-medium has-text-primary"><i class="fas fa-feather"></i></span></li>
+                            <li class="is-italic">TJM : 300 €<span class="icon is-medium has-text-primary"><i class="fas fa-feather"></i></span></li>
                         </ul>
                     </div>
                     <button class="button is-link is-large" id="btn1">
                         <span class="icon"><i class="fas fa-file-signature"></i></span>
-                        <span>Demander un devis</span>
+                        <span>Contact</span>
                     </button>
                     <br><br><span class="tag is-success has-text-weight-bold">Disponible !</span>
                 </div>
@@ -78,12 +78,34 @@
             <div class="modal-background" id="btn2"></div>
             <div class="modal-content">
                 <div class="box">
-                    <h3 class="title is-size-5 has-text-centered has-text-primary has-text-weight-semibold is-family-secondary">Un devis est gratuit et sans engagement</h3>
-                    <div class="field is-grouped is-grouped-centered">
-                        <div class="control">
-                            <button id="btn4" class="button is-primary is-medium">Envoyer</button>
+                    <h3 class="title is-size-5 has-text-centered has-text-primary has-text-weight-semibold is-family-secondary">Formulaire de contact - Un devis est gratuit et sans engagement</h3>
+                    <form action="https://formspree.io/f/mayvnjee" method="POST">
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control has-icons-left has-icons-right">
+                            <input class="input is-danger" type="email" placeholder="Email input" value="...@..." name="_replyto">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <span class="icon is-small is-right">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </span>
+                            </div>
+                            <p class="help is-danger">This email is invalid</p>
                         </div>
-                    </div>
+                        <div class="field">
+                            <div class="control">
+                                <label class="label">Message :
+                                    <textarea class="textarea" placeholder="Textarea" name="message"></textarea>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="field is-grouped is-grouped-centered">
+                            <div class="control">
+                                <button type="submit" id="btn4" class="button is-primary is-medium">Envoyer</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
             <button class="modal-close is-large" id="btn3"></button>
