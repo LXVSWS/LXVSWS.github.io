@@ -23,12 +23,15 @@
             </div>
             <div id="menu" class="navbar-menu has-background-dark is-uppercase is-size-7">
                 <div class="navbar-start">
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" href="#services">
+                        <span class="icon is-large"><i class="fas fa-lg fa-gem"></i></span>Services
+                    </a>
+                    <a class="navbar-item" href="#boutique">
                         <span class="icon is-large"><i class="fas fa-lg fa-gem"></i></span>Boutique
                     </a>
                 </div>
                 <div class="navbar-end">
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" href="#blog">
                         <span class="icon is-large"><i class="fas fa-lg fa-book"></i></span>Blog
                     </a>
                 </div>
@@ -60,8 +63,8 @@
                     <h1 class="title is-1 has-text-weight-light">Prestations de services</h1>
                     <h2 class="subtitle is-2 has-text-weight-bold has-text-secondary">Développeur Fullstack</h2>
                     <div class="content is-medium has-text-centered">
-                        <span class="souligne">Conception de logiciels </span><span class="icon is-medium has-text-dark"><i class="fas fa-pencil-ruler"></i></span><br>
-                        <span class="is-italic">Web & Desktop </span><span class="icon is-medium has-text-danger"><i class="fas fa-cogs"></i></span><br>
+                        <span class="souligne">C - Python - JS</span><span class="icon is-medium has-text-dark"><i class="fas fa-pencil-ruler"></i></span><br>
+                        <span class="is-italic">Desktop & Web </span><span class="icon is-medium has-text-danger"><i class="fas fa-cogs"></i></span><br>
                         <span class="is-family-code">TJM : 300 € </span><span class="icon is-medium has-text-primary"><i class="fas fa-feather"></i></span>
                     </div>
                     <button class="button is-link is-large" id="btn1">
@@ -81,7 +84,7 @@
                         <div class="field">
                             <label class="label">Email</label>
                             <div class="control has-icons-left has-icons-right">
-                                <input class="input" type="email" placeholder="Email" name="_replyto">
+                                <input class="input" type="email" placeholder="exemple@email.com" name="_replyto" required>
                                 <span class="icon is-small is-left">
                                     <i class="fas fa-envelope"></i>
                                 </span>
@@ -90,7 +93,7 @@
                         <div class="field">
                             <label class="label">Message</label>
                             <div class="control">
-                                <textarea class="textarea" placeholder="Un devis est gratuit et sans engagement" name="message"></textarea>
+                                <textarea class="textarea" placeholder="Un devis est gratuit et sans engagement" name="message" required></textarea>
                             </div>
                         </div>
                         <div class="field is-grouped is-grouped-centered">
@@ -120,6 +123,83 @@
                     <div class="notification is-danger">
                         <h3 class="title is-4">Polyvalent<span class="icon is-large"><i class="fas fa-puzzle-piece"></i></span></h1>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section id="boutique" class="section">
+            <div class="columns is-centered">
+                <div class="column is-5 has-text-centered">
+                    <img src="img/cover.jpg" style="max-width:auto;max-height:600px">
+                </div>
+                <div class="column is-7">
+                    <div class="box has-background-grey-lighter has-text-centered">
+                        <h1 class="title is-3 has-text-dark has-text-weight-medium is-family-code"><nobr>Vulgarisation</nobr> <nobr>Informatique</nobr>
+                            <span class="tag is-info is-capitalized has-text-weight-bold">Ebook</span>
+                        </h1>
+                        <div class="level">
+                            <div class="level-left">
+                                <div class="level-item">
+                                    <h2 class="subtitle is-3 has-text-black has-text-weight-light">4,99 €
+                                        <span class="tag is-link has-text-weight-bold">Promo</span>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="level-right">
+                                <div class="level-item">
+                                    <p class="has-text-dark has-text-weight-light">
+                                        <span class="icon"><i class="fas fa-shipping-fast"></i></span> Envoi instantané par e-mail<br>
+                                        <span class="icon"><i class="fas fa-money-bill"></i></span> Paiement par CB ou Paypal
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="content is-size-5 has-text-centered has-text-black has-text-weight-light">
+                            Rattrapez votre retard sur la technologie ! Cet ebook vous permettra d'obtenir une vue
+                            d'ensemble sur ce vaste sujet qu'est l'informatique. Fini d'apprendre des spécificités sans
+                            comprendre l'envers du décor, <strong class="souligne">Vulgarisation Informatique</strong> vous
+                            décrit clairement comment tout cela
+                            fonctionne. Entrez dans la boîte noire.
+                        </p>
+                        <div class="has-text-centered has-text-weight-light">
+                            <a href="#" class="button is-primary is-large is-rounded">
+                                <span class="icon"><i class="fas fa-lg fa-caret-right"></i></span>
+                                <span class="is-uppercase is-size-6 has-text-weight-bold">Acheter</span>
+                                <span class="icon"><i class="fas fa-lg fa-caret-left"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="opacite" class="content is-small is-family-code has-text-centered has-text-warning has-text-weight-bold is-uppercase">
+                        <hr>
+                        <ol>
+                            <li>L'information</li>
+                            <li>L'informatique</li>
+                            <li>Matériel</li>
+                            <li>Logiciel</li>
+                            <li>Programmation</li>
+                            <li>Réseau</li>
+                            <li>Web</li>
+                            <li>Linux</li>
+                            <li>Python</li>
+                        </ol>
+                        <hr>
+                    </div>
+                </div>          
+            </div>
+        </section>
+        <section id="blog" class="section">
+            <div class="columns is-centered">
+                <div class="column is-one-third">
+                    <a href="#">
+                        <article class="message is-medium">
+                            <div class="message-header is-size-4 has-background-grey-dark">
+                                <strong class="has-text-primary">Bienvenue</strong>
+                                <em class="is-size-7">01 janvier 2022</em>
+                            </div>
+                            <div class="message-body has-background-grey-lighter">
+                                Bonne visite !
+                            </div>
+                        </article>
+                    </a>
                 </div>
             </div>
         </section>
