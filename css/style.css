@@ -5,17 +5,9 @@ html, body {
     margin: 0;
 }
 
-canvas {
-    display: block;
-    border: 5px solid black;
-    background: #eee;
-}
-
-#particles-js canvas{
-    position: fixed;
-    z-index: -1;
-    background: lightgrey;
-    top: 0;
+#avatar {
+    width: 48px;
+    height: 48px;
 }
 
 #bg {
