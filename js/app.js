@@ -8,8 +8,6 @@ var btn5 = document.getElementById("btn5");
 var btn6 = document.getElementById("btn6");
 var modal1 = document.getElementById("modal1");
 var modal2 = document.getElementById("modal2");
-var onglet = document.getElementById("onglet");
-var onglet2 = document.getElementById("onglet2");
 
 btn.onclick = function () {
     menu.classList.toggle("is-active")
@@ -38,12 +36,4 @@ btn5.onclick = function () {
 
 btn6.onclick = function () {
     modal2.classList.toggle("is-active")
-};
-
-onglet.onclick = function () {
-    window.open("vulgarisation_informatique.pdf");
-};
-
-onglet2.onclick = function () {
-    window.open("https://buy.stripe.com/9AQ4i1b2Z2fP05W5kk");
 };
