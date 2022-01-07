@@ -6,14 +6,16 @@ html, body {
 }
 
 @media (max-width: 640px) {
-    #bg { background: rgb(109, 107, 107) }
+#bg { background: rgb(109, 107, 107) }
 }
 
+@media (min-width: 641px) {
 #bg {
     background: url("../img/bg.jpg") no-repeat fixed;
     background-position: 50% 35%;
     background-size: cover;
     z-index: -1;
+}
 }
 
 #opacite {
