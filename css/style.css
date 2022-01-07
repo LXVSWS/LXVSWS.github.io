@@ -5,11 +5,11 @@ html, body {
     margin: 0;
 }
 
-@media (max-width: 640px) {
-#bg { background: rgb(109, 107, 107) }
+@media (max-width: 480px) {
+#bg { background: lightgrey }
 }
 
-@media (min-width: 641px) {
+@media (min-width: 481px) {
 #bg {
     background: url("../img/bg.jpg") no-repeat fixed;
     background-position: 50% 35%;
