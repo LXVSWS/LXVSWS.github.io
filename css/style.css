@@ -5,11 +5,17 @@ html, body {
     margin: 0;
 }
 
+@media (max-width: 480px) {
+#bg { background: lightgrey }
+}
+
+@media (min-width: 481px) {
 #bg {
     background: url("../img/bg.jpg") no-repeat fixed;
     background-position: 50% 35%;
     background-size: cover;
     z-index: -1;
+}
 }
 
 #opacite {
